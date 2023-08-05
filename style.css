@@ -1,0 +1,135 @@
+body {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.banner {
+  height: 80vh;
+  max-height: 80vh;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/assets/images/banner1.jpg);
+}
+
+.logo {
+  padding: 1rem;
+  width: 20rem;
+  height: 3rem;
+  margin-left: 2rem;
+}
+
+nav {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  color: gold;
+  text-decoration: none;
+  float: right;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+section {
+  display: flex;
+}
+
+.heading1 {
+  padding-top: 4rem;
+  height: 50vh;
+  text-align: center;
+  padding-bottom: 2rem;
+  align-items: center;
+}
+
+.heading1 > article {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading1 span {
+  color: gold;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 31px #fff, 0 0 55px yellow,
+    0 0 91px yellow, 0 0 100px yellow, 0 0 122px yellow, 0 0 140px yellow;
+}
+
+.articlearea {
+  text-align: center;
+}
+
+.articlearea article {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+article figure {
+  flex: 1;
+}
+
+article figure > img {
+  padding: 1rem;
+  width: 15rem;
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  animation: turnimage 2s ease 1s iteration-count direction fill-mode;
+}
+
+article figure > img:hover {
+  background-color: gold;
+  animation: turnimage 1s ease-in-out 2s iteration-count direction fill-mode;
+  transition: 5s;
+  transform: rotateY(360deg);
+}
+
+#caps {
+  text-align: center;
+  color: gold;
+}
+
+.footlogo {
+  height: 100px;
+  width: 250px;
+}
+
+footer {
+  background-color: goldenrod;
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  margin-top: 3rem;
+}
+
+footer div {
+  flex: 1;
+  margin: auto;
+}
